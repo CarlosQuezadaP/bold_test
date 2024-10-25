@@ -1,5 +1,3 @@
-Aquí tienes el contenido completo del README en un solo bloque para que lo copies sin problemas:
-
 ```markdown
 # Bold Test
 
