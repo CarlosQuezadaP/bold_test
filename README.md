@@ -50,6 +50,9 @@ Para los errores, se utilizó esta estrategia de clase sellada para capturar tan
 
 No obstante, no se definieron en la prueba qué tipos de errores de negocio podrían existir, y tampoco se implementaron lógicas de negocio, ya que el enfoque se centró exclusivamente en consumos de red.
 
+<img src="https://github.com/CarlosQuezadaP/bold_test/blob/main/images/Screenshot%202024-10-25%20095501.png" alt="Pantalla Completa" width="300"/>
+<img src="https://github.com/CarlosQuezadaP/bold_test/blob/main/images/Screenshot%202024-10-25%20095430.png" alt="Pantalla Completa" width="300"/>
+
 ## Características
 
 - Listar las características más importantes del proyecto.
