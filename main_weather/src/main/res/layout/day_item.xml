@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="forecast"
+            type="com.bold.main_weather.data.api.dto.nextDays.ForecastdayModel" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/card_state"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:isPressed="@{forecast.selected}">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:fontFamily="@font/overpass_bold"
+            android:text="@{forecast.date}"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            imageUrl="@{forecast.day.condition.icon}"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/overpass_bold"
+            android:text="@{forecast.day.condition.text}"
+            android:textColor="#ffffff" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:fontFamily="@font/overpass_bold"
+            android:text="@{String.valueOf(forecast.day.avgtempC) + @string/celsius_symbol}"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+</layout>

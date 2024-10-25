@@ -1,0 +1,47 @@
+# Android Studio
+.idea/
+*.iml
+.gradle/
+local.properties
+/.idea/workspace.xml
+/.idea/libraries
+
+# Builds
+/build/
+*/build/
+
+# Archivos de configuración de usuario
+*.jks
+*.keystore
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Directorios de dependencias
+/app/libs/
+app/src/debug/
+app/src/profile/
+
+# Archivos de caché
+.cache/
+captures/
+
+# ProGuard
+proguard/
+mapping/
+
+# Archivos de configuración del sistema
+*.DS_Store
+Thumbs.db
+
+# Archivos generados por Android Studio
+out/
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Archivos de test
+test-results/
+connected-results/

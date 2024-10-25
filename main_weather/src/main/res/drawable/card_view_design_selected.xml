@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#4DFFFFFF"/> <!-- #4D es el valor hexadecimal para 30% de opacidad -->
+    <stroke
+        android:width="2dp"
+        android:color="#B3FFFFFF"/> <!-- #B3 es el valor hexadecimal para 70% de opacidad -->
+    <corners android:radius="14dp"/>
+</shape>
