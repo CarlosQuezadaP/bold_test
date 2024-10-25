@@ -117,6 +117,10 @@ Se realizaron pruebas unitarias para asegurar la calidad del código en las sigu
 
 Estas pruebas contribuyen a la robustez y confiabilidad del proyecto, permitiendo identificar y corregir errores de manera temprana.
 
+
+<img src="https://github.com/CarlosQuezadaP/bold_test/blob/main/images/Screenshot%202024-10-25%20100652.png" alt="Pantalla Completa" width="300"/>
+
+
 ## Capturas de Pantalla
 
 <img src="https://github.com/CarlosQuezadaP/bold_test/blob/main/images/fullview.png" alt="Pantalla Completa" width="300"/>
