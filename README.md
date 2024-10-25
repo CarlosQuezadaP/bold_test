@@ -116,7 +116,12 @@ Estas pruebas contribuyen a la robustez y confiabilidad del proyecto, permitiend
 
 ## Capturas de Pantalla
 
-![Descripción de la imagen]https://github.com/CarlosQuezadaP/bold_test/blob/main/images/fullview.png
+![Pantalla Completa](https://github.com/CarlosQuezadaP/bold_test/blob/main/images/fullview.png)
+![Pantalla Principal](https://github.com/CarlosQuezadaP/bold_test/blob/main/images/main.png)
+![Scroll View](https://github.com/CarlosQuezadaP/bold_test/blob/main/images/scrollview.png)
+![Buscar](https://github.com/CarlosQuezadaP/bold_test/blob/main/images/search.png)
+![Splash Screen](https://github.com/CarlosQuezadaP/bold_test/blob/main/images/splash.png)
+
 
 ## Tecnologías Usadas
 
