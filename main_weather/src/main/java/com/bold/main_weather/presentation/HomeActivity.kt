@@ -10,7 +10,6 @@ import androidx.lifecycle.lifecycleScope
 import com.bold.main_weather.R
 import com.bold.main_weather.databinding.ActivityHomeBinding
 import com.bold.main_weather.presentation.fragment.ForecastAdapter
-import com.bold.main_weather.presentation.fragment.ItemAdapter
 import com.bold.main_weather.presentation.fragment.TopBottomSheetFragment
 import com.bold.main_weather.presentation.viewmodel.HomeViewModel
 import com.bold.network.ApiResponse
@@ -46,7 +45,6 @@ class HomeActivity : AppCompatActivity() {
 
         lifecycleScope.launch {
             viewModel.daysWeather.collect { state ->
-
                 when (state) {
                     is ApiResponse.Success -> {
                         val forecast = state.data.forecast.forecastday
