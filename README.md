@@ -116,7 +116,7 @@ Estas pruebas contribuyen a la robustez y confiabilidad del proyecto, permitiend
 
 ## Capturas de Pantalla
 
-![Descripción de la imagen](ruta/a/tu/imagen.png)
+![Descripción de la imagen]https://github.com/CarlosQuezadaP/bold_test/blob/main/images/fullview.png
 
 ## Tecnologías Usadas
 
